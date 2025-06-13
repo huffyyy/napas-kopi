@@ -25,13 +25,52 @@
         <a href="#">Home</a>
         <a href="#about">Tentang Kami</a>
         <a href="#menu">Menu</a>
+        <a href="#products">Produk</a>
         <a href="#contact">Kontak</a>
       </div>
       <div class="navbar-extra">
-        <a href="#" id="search"><i data-feather="search"></i></a>
-        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button"
+          ><i data-feather="shopping-cart"></i
+        ></a>
         <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
       </div>
+
+      <!-- Search Form start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search Form end -->
+
+      <!-- Shopping Cart star -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="img/produtcs/pagi.png" alt="Pagi" />
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 500K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/produtcs/pagi.png" alt="Pagi" />
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 500K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/produtcs/pagi.png" alt="Pagi" />
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 500K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+      <!-- Shopping Cart end -->
     </nav>
     <!-- Navbar End -->
 
@@ -43,7 +82,9 @@
           <span>Penat.</span>
         </h1>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, sequi!
+          Dibuat dari biji pilihan dan proses alami, Napas Kopi hadir untuk
+          menenangkan pikiran dan memanjakan lidah. Temukan rasa kopi yang
+          sesungguhnya.
         </p>
         <a href="#" class="cta">Beli Sekarang</a>
       </main>
@@ -60,13 +101,18 @@
         <div class="content">
           <h3>Kenapa memilih kopi kami?</h3>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis
-            quidem rerum, obcaecati veritatis aut animi.
+            Kami percaya bahwa kopi bukan hanya soal rasa, tapi juga perasaan.
+            Napas Kopi diracik untuk menemani setiap tarikan napas, membantu
+            kamu melepas penat, dan menikmati jeda di tengah rutinitas. Dari
+            petani hingga ke cangkirmu, kami meracik setiap produk dengan cinta,
+            ketulusan, dan semangat lokal.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-            neque corrupti impedit necessitatibus tempore molestias doloribus
-            quibusdam sint explicabo cumque.
+            Lebih dari sekadar kopi, kami ingin menghadirkan pengalaman. Setiap
+            cangkir Napas Kopi adalah undangan untuk berhenti sejenak, menarik
+            napas, dan menikmati momen. Karena kami percaya, secangkir kopi yang
+            baik bisa menjadi teman yang setia—di pagi yang sibuk, sore yang
+            tenang, atau malam yang panjang.
           </p>
         </div>
       </div>
@@ -77,8 +123,9 @@
     <section id="menu" class="menu">
       <h2><span>Menu</span> Kami</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis,
-        animi cumque? Nemo sapiente ducimus maxime.
+        Dari yang klasik hingga yang creamy, setiap menu diracik dengan biji
+        terbaik dan proses yang penuh ketelitian. Pilih kopi favoritmu dan
+        nikmati sensasi rasa yang melekat di setiap tegukan.
       </p>
 
       <div class="row">
@@ -106,11 +153,152 @@
     </section>
     <!-- Menu Section end -->
 
+    <!-- Product Section start -->
+    <section class="products" id="products">
+      <h2><span>Produk</span> Unggulan Kami</h2>
+      <p>
+        Jelajahi cita rasa terbaik dari koleksi kopi pilihan kami. Setiap varian
+        Napas Kopi diracik dengan karakter unik—mulai dari yang ringan dan
+        menenangkan, hingga yang pekat dan berani. Temukan varian favoritmu dan
+        rasakan sendiri bagaimana kopi bisa menjadi teman setia di setiap momen.
+      </p>
+
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/produtcs/pagi.png" alt="product 1" />
+          </div>
+          <div class="product-content">
+            <h3>Napas Kopi - Pagi Tenang</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">IDR 550K <span>IDR 750K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/produtcs/senja.png" alt="product 1" />
+          </div>
+          <div class="product-content">
+            <h3>Napas Kopi - Senja Merah</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 350K <span>IDR 500K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/produtcs/malam.png" alt="product 1" />
+          </div>
+          <div class="product-content">
+            <h3>Napas Kopi - Malam Gelap</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 500K <span>IDR 800K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/produtcs/hutan.png" alt="product 1" />
+          </div>
+          <div class="product-content">
+            <h3>Napas Kopi - Hutan Dalam</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 800K</div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/produtcs/bumi.png" alt="product 1" />
+          </div>
+          <div class="product-content">
+            <h3>Napas Kopi - Bumi Lembut</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 500K <span>600K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/produtcs/Laut.png" alt="product 1" />
+          </div>
+          <div class="product-content">
+            <h3>Napas Kopi - Laut Lepas</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 700K <span>900K</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Product Section end -->
+
     <!-- Contact Section start -->
     <section id="contact" class="contact">
       <h2><span>Kontak</span> Kami</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, minima.
+        Punya pertanyaan, saran, atau ingin kerja sama? Hubungi kami melalui
+        formulir ini atau kunjungi langsung kedai kami. Kami siap menyambut
+        pesanmu!
       </p>
       <div class="row">
         <iframe
@@ -159,6 +347,40 @@
       </div>
     </footer>
     <!-- Footer end -->
+
+    <!-- Modal Box Item Detail start -->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/produtcs/pagi.png" alt="pagi" />
+          <div class="product-content">
+            <h3>Pagi Tenang</h3>
+            <p>
+              Awali harimu dengan lembut bersama Pagi Tenang, varian kopi yang
+              diracik khusus untuk momen pagi yang damai. Dibuat dari biji kopi
+              pilihan dengan karakter light roast, Pagi Tenang menghadirkan cita
+              rasa ringan, floral, dan sedikit manis alami. Cocok untuk kamu
+              yang ingin menikmati kopi tanpa rasa pahit berlebih, namun tetap
+              memberi semangat. Sempurna diseduh saat matahari baru terbit,
+              ketika tubuh dan pikiran butuh kehangatan yang bersahabat.
+            </p>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">IDR 550K <span>IDR 750K</span></div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i> <span>add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Item Detail end -->
     <script>
       feather.replace();
     </script>
