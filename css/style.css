@@ -501,6 +501,7 @@ footer .credit a {
   width: 70%;
   animation: animateModal 0.5s;
   border-radius: 1.5rem;
+  /* height: 50%; */
 }
 
 /* modal animation */
@@ -632,7 +633,7 @@ footer .credit a {
   }
 
   .modal-container {
-    height: 50%;
+    height: 60%;
     margin: auto;
   }
   .modal-content {
